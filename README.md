@@ -1,15 +1,17 @@
-## Lattuino - apio
+# Lattuino / apio
 
 Scripts to build Lattuino Core using Apio
 
-## Update
+## Lattuino
 
 ```
-./update.sh
+./update_lattuino.sh
+apio build -p src_lattuino
 ```
 
-## Build
+## Lattuino stick
 
 ```
-apio build -p src
+./update_lattuino_stick.sh
+apio build -p src_lattuino_stick
 ```
