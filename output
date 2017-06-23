@@ -1,0 +1,114 @@
+Info: apio.ini board kefir
+Info: default SConstruct file
+[Fri Jun 23 19:06:26 2017] Processing kefir
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FPGA_SIZE: 8k
+FPGA_TYPE: hx
+FPGA_PACK: tq144:4k
+yosys -p "synth_ice40 -blif hardware.blif" -q Rxunit.v Txunit.v ad_conv.v attX5.v capsense.v capsense_sys.v core.v cpu.v cpuconfig.v dm_s.v io_reg_file.v irq.v lattuino_1.v lattuino_1_bl_8.v mcp300x.v miniuart.v portx.v reg_file.v spi.v spi_master.v tm16b.v tmcounter.v utils.v wb_ctrl.v wb_dev_intercon.v
+Warning: converting real value 1.600000e+01 to binary 16 at capsense_sys.v:56.
+Warning: Yosys has only limited support for tri-state logic at the moment. (lattuino_1.v:254)
+Warning: Yosys has only limited support for tri-state logic at the moment. (lattuino_1.v:255)
+Warning: Yosys has only limited support for tri-state logic at the moment. (lattuino_1.v:256)
+Warning: Yosys has only limited support for tri-state logic at the moment. (lattuino_1.v:257)
+Warning: Yosys has only limited support for tri-state logic at the moment. (lattuino_1.v:258)
+Warning: Yosys has only limited support for tri-state logic at the moment. (lattuino_1.v:259)
+Warning: Yosys has only limited support for tri-state logic at the moment. (lattuino_1.v:260)
+Warning: Yosys has only limited support for tri-state logic at the moment. (lattuino_1.v:261)
+Warning: Yosys has only limited support for tri-state logic at the moment. (lattuino_1.v:262)
+Warning: Yosys has only limited support for tri-state logic at the moment. (lattuino_1.v:263)
+Warning: Yosys has only limited support for tri-state logic at the moment. (lattuino_1.v:264)
+Warning: Yosys has only limited support for tri-state logic at the moment. (lattuino_1.v:265)
+Warning: Yosys has only limited support for tri-state logic at the moment. (lattuino_1.v:266)
+Warning: Yosys has only limited support for tri-state logic at the moment. (lattuino_1.v:267)
+Warning: Yosys has only limited support for tri-state logic at the moment. (lattuino_1.v:509)
+Warning: converting real value 5.258333e+01 to binary 53 at lattuino_1.v:99.
+Warning: converting real value 2.400000e+01 to binary 24 at lattuino_1.v:100.
+Warning: converting real value 1.600000e+01 to binary 16 at capsense_sys.v:56.
+Warning: Range select out of bounds on signal `\sp_r' at io_reg_file.v:129: Setting 6 MSB bits to undef.
+Warning: Wire Lattuino_1.\ISP_SCK is used but has no driver.
+Warning: Wire Lattuino_1.\ISP_MOSI is used but has no driver.
+Warning: Wire Lattuino_1.\micro.portb_impl.portb_comp.port_i [6] is used but has no driver.
+Warning: Wire Lattuino_1.\micro.io_out_en [1] is used but has no driver.
+Warning: Wire Lattuino_1.\micro.io_out[1] [7] is used but has no driver.
+Warning: Wire Lattuino_1.\micro.io_out[1] [6] is used but has no driver.
+Warning: Wire Lattuino_1.\micro.io_out[1] [5] is used but has no driver.
+Warning: Wire Lattuino_1.\micro.io_out[1] [4] is used but has no driver.
+Warning: Wire Lattuino_1.\micro.io_out[1] [3] is used but has no driver.
+Warning: Wire Lattuino_1.\micro.io_out[1] [2] is used but has no driver.
+Warning: Wire Lattuino_1.\micro.io_out[1] [1] is used but has no driver.
+Warning: Wire Lattuino_1.\micro.io_out[1] [0] is used but has no driver.
+Warning: Wire Lattuino_1.\micro.io_out[0] [7] is used but has no driver.
+Warning: Wire Lattuino_1.CS.cur_btn_r has an unprocessed 'init' attribute.
+Warning: Wire Lattuino_1.CS.prev_btn_r has an unprocessed 'init' attribute.
+Warning: Wire Lattuino_1.the_counter.latched_r has an unprocessed 'init' attribute.
+arachne-pnr -d 8k -P tq144:4k -p lattuino_1.in.pcf -o hardware.asc hardware.blif
+seed: 1
+device: 8k
+read_chipdb +/share/arachne-pnr/chipdb-8k.bin...
+supported packages: cb132, cb132:4k, cm121, cm121:4k, cm225, cm225:4k, cm81, cm81:4k, ct256, tq144:4k
+read_blif hardware.blif...
+prune...
+read_pcf lattuino_1.in.pcf...
+instantiate_io...
+pack...
+
+After packing:
+IOs          37 / 107
+GBs          0 / 8
+GB_IOs     0 / 8
+LCs          2250 / 7680
+DFF        543
+CARRY      292
+CARRY, DFF 96
+DFF PASS   352
+CARRY PASS 42
+BRAMs        21 / 32
+WARMBOOTs    0 / 1
+PLLs         1 / 2
+
+place_constraints...
+promote_globals...
+promoted micro.AVRCoreInst.CPU.rst_i, 382 / 382
+promoted $abc$26380$n551, 66 / 66
+promoted $abc$26380$n677, 41 / 41
+promoted $abc$26380$n670, 33 / 43
+promoted 4 nets
+1 sr/we
+3 cen/wclke
+6 globals
+1 sr/we
+3 cen/wclke
+2 clk
+realize_constants...
+realized 1
+place...
+initial wire length = 49971
+at iteration #50: temp = 11.7494, wire length = 40377
+at iteration #100: temp = 7.79482, wire length = 30751
+at iteration #150: temp = 4.00141, wire length = 19818
+at iteration #200: temp = 1.85382, wire length = 13288
+at iteration #250: temp = 0.389793, wire length = 9033
+at iteration #300: temp = 2.12223e-05, wire length = 8524
+final wire length = 8501
+
+After placement:
+PIOs       33 / 107
+PLBs       501 / 960
+BRAMs      21 / 32
+
+place time 19.40s
+route...
+pass 1, 16 shared.
+pass 2, 6 shared.
+pass 3, 2 shared.
+pass 4, 0 shared.
+
+After routing:
+span_4     4125 / 29696
+span_12    785 / 5632
+
+route time 10.99s
+write_txt hardware.asc...
+icepack hardware.asc hardware.bin
+============================================================================ [SUCCESS] Took 46.24 seconds ============================================================================
