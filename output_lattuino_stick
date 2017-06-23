@@ -1,0 +1,416 @@
+Info: apio.ini board icestick
+Info: default SConstruct file
+[Fri Jun 23 19:42:04 2017] Processing icestick
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FPGA_SIZE: 1k
+FPGA_TYPE: hx
+FPGA_PACK: tq144
+yosys -p "synth_ice40 -blif hardware.blif" -q Rxunit.v Txunit.v attX5.v core.v cpu.v cpuconfig.v dm_s.v io_reg_file.v irq.v lattuino_1_bl_2s.v lattuino_stick.v miniuart.v portx.v reg_file.v utils.v wb_ctrl.v
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: converting real value 2.654167e+01 to binary 27 at lattuino_stick.v:65.
+Warning: converting real value 1.200000e+01 to binary 12 at lattuino_stick.v:66.
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Literal has a width of 16 bit, but value requires 17 bit. (lattuino_1_bl_2s.v:64)
+Warning: Range select out of bounds on signal `\sp_r' at io_reg_file.v:105: Setting result bit to undef.
+Warning: Range select out of bounds on signal `\sp_r' at io_reg_file.v:105: Setting result bit to undef.
+Warning: Wire Lattuino_Stick.\micro.io_out_en [5] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[5] [7] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[5] [6] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[5] [5] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[5] [4] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[5] [3] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[5] [2] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[5] [1] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[5] [0] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[4] [7] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[4] [6] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[4] [5] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out_en [1] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[1] [7] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[1] [6] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[1] [5] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[1] [4] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[1] [3] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[1] [2] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[1] [1] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[1] [0] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out_en [0] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[0] [7] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[0] [6] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[0] [5] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[0] [4] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[0] [3] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[0] [2] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[0] [1] is used but has no driver.
+Warning: Wire Lattuino_Stick.\micro.io_out[0] [0] is used but has no driver.
+arachne-pnr -d 1k -P tq144 -p lattuino_stick.pcf -o hardware.asc hardware.blif
+seed: 1
+device: 1k
+read_chipdb +/share/arachne-pnr/chipdb-1k.bin...
+supported packages: cb121, cb132, cb81, cm121, cm36, cm49, cm81, qn84, swg16tr, tq144, vq100
+read_blif hardware.blif...
+prune...
+read_pcf lattuino_stick.pcf...
+instantiate_io...
+pack...
+
+After packing:
+IOs          10 / 96
+GBs          0 / 8
+GB_IOs     0 / 8
+LCs          1263 / 1280
+DFF        259
+CARRY      181
+CARRY, DFF 0
+DFF PASS   173
+CARRY PASS 20
+BRAMs        9 / 16
+WARMBOOTs    0 / 1
+PLLs         0 / 1
+
+place_constraints...
+promote_globals...
+promoted CLK$2, 277 / 277
+promoted micro.AVRCoreInst.CPU.rst_i, 171 / 171
+promoted $abc$14236$n143, 16 / 16
+promoted $abc$14236$n94, 8 / 8
+promoted $abc$14236$n141, 8 / 8
+promoted $abc$14236$n137, 8 / 8
+promoted 6 nets
+1 sr/we
+4 cen/wclke
+1 clk
+6 globals
+1 sr/we
+4 cen/wclke
+1 clk
+realize_constants...
+realized 1
+place...
+fatal error: failed to place: placed 1051 LCs of 1264 / 1280
+scons: *** [hardware.asc] Error 1
